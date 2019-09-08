@@ -1,7 +1,7 @@
 $font-size-date-small: 0.9rem;
 
-%shared-font {
-    font-weight: 550;
+%jumbo {
+    margin: 3px;
 }
 
 .card-body {
@@ -11,7 +11,7 @@ $font-size-date-small: 0.9rem;
 }
 
 .jumbotron > .row {
-    margin: 3px;
+    @extend %jumbo;
 }
 
 .nav-scroller {
@@ -19,11 +19,11 @@ $font-size-date-small: 0.9rem;
 }
   
 .nav > .text-muted:hover {
-    @extend %shared-font;
+    font-weight: 550;
 }
 
 @media (max-width: 500px) {
-    #search-icon {
+    #search-icon, #subscribe, #sign-up{
         display: none;
     }
 }

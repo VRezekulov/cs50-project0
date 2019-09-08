@@ -1,21 +1,21 @@
-.nav > .text-muted:hover {
-  font-weight: 550;
+.jumbotron > .row {
+  margin: 3px;
 }
 
 .card-body .mb-1 {
   font-size: 0.9rem;
 }
 
-.jumbotron > .row {
-  margin: 3px;
-}
-
 .nav-scroller {
   font-size: 1.04rem;
 }
 
+.nav > .text-muted:hover {
+  font-weight: 550;
+}
+
 @media (max-width: 500px) {
-  #search-icon {
+  #search-icon, #subscribe, #sign-up {
     display: none;
   }
 }
