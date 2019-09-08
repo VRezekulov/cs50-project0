@@ -1,0 +1,35 @@
+$font-size-date-small: 0.9rem;
+
+%shared-font {
+    font-weight: 550;
+}
+
+.card-body {
+    .mb-1 {
+        font-size: $font-size-date-small;
+    }
+}
+
+.jumbotron > .row {
+    margin: 3px;
+}
+
+.nav-scroller {
+    font-size: 1.04rem;
+}
+  
+.nav > .text-muted:hover {
+    @extend %shared-font;
+}
+
+@media (max-width: 500px) {
+    #search-icon {
+        display: none;
+    }
+}
+
+.card-body > .mb-2 {
+    text-transform: uppercase;
+}
+
+  

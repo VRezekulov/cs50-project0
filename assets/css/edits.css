@@ -1,0 +1,26 @@
+.nav > .text-muted:hover {
+  font-weight: 550;
+}
+
+.card-body .mb-1 {
+  font-size: 0.9rem;
+}
+
+.jumbotron > .row {
+  margin: 3px;
+}
+
+.nav-scroller {
+  font-size: 1.04rem;
+}
+
+@media (max-width: 500px) {
+  #search-icon {
+    display: none;
+  }
+}
+.card-body > .mb-2 {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=edits.css.map */
